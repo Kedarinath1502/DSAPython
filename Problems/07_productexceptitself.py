@@ -8,7 +8,7 @@ Given an integer array nums, return an array answer such that answer[i] is equal
         right_prod = 1
         for i in range(len(nums)-1,-1,-1): 
             res[i] = res[i]*right_prod
-            right_prod = right_prod * nums[j]
+            right_prod = right_prod * nums[i]
         return res
 '''
 
