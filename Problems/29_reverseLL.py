@@ -28,3 +28,4 @@ class Solution(object):
             prev = curr
             curr = after
         return prev
+    
